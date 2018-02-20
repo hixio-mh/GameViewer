@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab3.View.DetailPage">
+    <ScrollView Orientation="Vertical" Padding="0" VerticalOptions="FillAndExpand">
+        <StackLayout>
+            <Label Text="{Binding Game.Name}"/>
+            <Image Source="{Binding Game.fullDescription.BigIco}"/>
+            <Label Text="{Binding Game.fullDescription.Platform}"/>
+            <Button StyleClass="Link" Text="Wiki" Command="{Binding LinkCommand}"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

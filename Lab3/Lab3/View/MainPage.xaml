@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab3.View.MainPage">
+    <StackLayout BackgroundColor="#E0E0E0">
+        <ListView ItemsSource="{Binding Games}"
+              SelectedItem="{Binding SelectedGame, Mode=TwoWay}" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.3*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Grid.Column="0" Source="{Binding shortDescription.SmallIco}"/>
+                                <StackLayout Grid.Column="1">
+                                    <Label Text="{Binding Name}" FontSize="Medium" />
+                                    <Label Text="{Binding shortDescription.Genre}" FontSize="Medium"/>
+                                    <Label Text="{Binding shortDescription.Company}" FontSize="Medium"/>
+                                    <Label Text="{Binding shortDescription.Year}" FontSize="Medium"/>
+                                </StackLayout>
+                            </Grid>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>

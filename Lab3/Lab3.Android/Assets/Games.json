@@ -1,0 +1,46 @@
+﻿{
+  "games": [
+    {
+      "Name": "GTA5",
+      "ShortDescription": {
+        "Genre": "Action, 3D, Open World",
+        "Company": "Rockstar North",
+        "Year": "2015",
+        "SmallIco": "GTA5_mini.png"
+      },
+      "FullDescription": {
+        "Platform": "PlayStation 3, Xbox 360, PlayStation 4,Xbox One , PC (Microsoft,Windows)",
+        "BigIco": "GTA5_max.png",
+        "Link": "https://ru.wikipedia.org/wiki/Grand_Theft_Auto_V"
+      }
+    },
+    {
+      "Name": "The Witcher 3",
+      "ShortDescription": {
+        "Genre": "Action/RPG",
+        "Company": "CD Projekt RED",
+        "Year": "2015",
+        "SmallIco": "TheWitcher3_mini.png"
+      },
+      "FullDescription": {
+        "Platform": "PlayStation 4,Xbox One , PC (Microsoft,Windows), Nvidia Shield",
+        "BigIco": "TheWitcher3_max.png",
+        "Link": "https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%B4%D1%8C%D0%BC%D0%B0%D0%BA_3:_%D0%94%D0%B8%D0%BA%D0%B0%D1%8F_%D0%9E%D1%85%D0%BE%D1%82%D0%B0"
+      }
+    },
+    {
+      "Name": "World of Warcraft",
+      "ShortDescription": {
+        "Genre": "MMORPG",
+        "Company": "Blizzard Entertainment",
+        "Year": "2004",
+        "SmallIco": "World_of_Warcraft_mini.png"
+      },
+      "FullDescription": {
+        "Platform": "Windows, macOS",
+        "BigIco": "World_of_Warcraft_max.png",
+        "Link": "https://ru.wikipedia.org/wiki/World_of_Warcraft"
+      }
+    }
+  ]
+}
