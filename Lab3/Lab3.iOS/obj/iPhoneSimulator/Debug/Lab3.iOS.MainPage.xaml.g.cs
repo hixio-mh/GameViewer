@@ -11,7 +11,7 @@
 namespace Lab3.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\Study\\MobileApps\\Lab3\\Lab3\\Lab3\\View\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\Study\\MobileApps\\GameViewer\\Lab3\\Lab3\\View\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

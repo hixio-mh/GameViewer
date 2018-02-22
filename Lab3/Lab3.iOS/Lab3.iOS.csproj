@@ -146,6 +146,84 @@
   <ItemGroup>
     <BundleResource Include="Resources\World_of_Warcraft_mini.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Ac_max.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Ac_mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Borderlands_max.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Borderlands_mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Diablo_III_max.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Diablo_III_mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Divinity_max.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Divinity_mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Fallout_max.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Fallout_mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\GrimDawn_max.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\GrimDawn_mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Hots_max.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Hots_mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Hs_max.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Hs_mini.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Left4Dead_max.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Left4dead_mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Overwatch_max.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Overwatch_mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\RedAlert_max.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\RedAlert_mini.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Skyrim_max.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Skyrim_mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Stellaris_max.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Stellaris_mini.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\Lab3\Lab3.projitems" Label="Shared" />
 </Project>

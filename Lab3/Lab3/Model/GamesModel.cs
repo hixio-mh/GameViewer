@@ -34,5 +34,6 @@ namespace Lab3.Model
         public string Platform { get; set; }
         public string BigIco { get; set; }
         public string Link { get; set; }
+        public string Description { get; set; }
     }
 }

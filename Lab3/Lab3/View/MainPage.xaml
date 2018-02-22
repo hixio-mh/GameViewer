@@ -12,12 +12,12 @@
                         <ViewCell.View>
                             <Grid>
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="0.3*"/>
+                                    <ColumnDefinition Width="0.5*"/>
                                     <ColumnDefinition Width="*"/>
                                 </Grid.ColumnDefinitions>
                                 <Image Aspect="AspectFit" Grid.Column="0" Source="{Binding shortDescription.SmallIco}"/>
                                 <StackLayout Grid.Column="1">
-                                    <Label Text="{Binding Name}" FontSize="Medium" />
+                                    <Label Text="{Binding Name}" FontSize="Large"  />
                                     <Label Text="{Binding shortDescription.Genre}" FontSize="Medium"/>
                                     <Label Text="{Binding shortDescription.Company}" FontSize="Medium"/>
                                     <Label Text="{Binding shortDescription.Year}" FontSize="Medium"/>

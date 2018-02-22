@@ -146,9 +146,6 @@
     <AndroidResource Include="Resources\drawable\Hots_max.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Hots_mini.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\Hs_max.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -183,6 +180,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\Stellaris_mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Hots_mini.png" />
   </ItemGroup>
   <Import Project="..\Lab3\Lab3.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

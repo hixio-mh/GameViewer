@@ -4,9 +4,12 @@
              x:Class="Lab3.View.DetailPage">
     <ScrollView Orientation="Vertical" Padding="0" VerticalOptions="FillAndExpand">
         <StackLayout>
-            <Label Text="{Binding Game.Name}"/>
+            <Label HorizontalOptions="Center" FontSize="Large" Text="{Binding Game.Name}"/>
             <Image Source="{Binding Game.fullDescription.BigIco}" Aspect="AspectFit"/>
+            <Label Text="Platform:" FontSize="Medium"/>
             <Label Text="{Binding Game.fullDescription.Platform}"/>
+            <Label Text="Description:" FontSize="Medium"/>
+            <Label Text="{Binding Game.fullDescription.Description}"/>
             <Button StyleClass="Link" Text="Wiki" Command="{Binding LinkCommand}"/>
         </StackLayout>
     </ScrollView>
