@@ -106,6 +106,12 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\World_of_Warcraft_mini.png" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Diablo_III_max.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Diablo_III_mini.png" />
+  </ItemGroup>
   <Import Project="..\Lab3\Lab3.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

@@ -15,6 +15,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)ImageResourceExtension.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)JsonParser.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\GamesModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModel\MainDetailPageViewModel.cs" />

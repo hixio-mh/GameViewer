@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Study\\MobileApps\\Lab3\\Lab3\\Lab3.Android\\Lab3.Android.csproj",
+      "projectUniqueName": "D:\\Study\\MobileApps\\GameViewer\\Lab3\\Lab3.Android\\Lab3.Android.csproj",
       "projectName": "Lab3.Android",
-      "projectPath": "D:\\Study\\MobileApps\\Lab3\\Lab3\\Lab3.Android\\Lab3.Android.csproj",
+      "projectPath": "D:\\Study\\MobileApps\\GameViewer\\Lab3\\Lab3.Android\\Lab3.Android.csproj",
       "packagesPath": "C:\\Users\\Anton\\.nuget\\packages\\",
-      "outputPath": "D:\\Study\\MobileApps\\Lab3\\Lab3\\Lab3.Android\\obj\\",
+      "outputPath": "D:\\Study\\MobileApps\\GameViewer\\Lab3\\Lab3.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
